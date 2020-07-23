@@ -6,7 +6,3 @@ def test_int():
 
 def test_value():
     assert addition(9) == 11106
-
-def test_multivalue():
-    for i in range(0, 100):
-        assert addition(i) == int(str(i + (i + (i + (i))))
