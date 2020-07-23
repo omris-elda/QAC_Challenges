@@ -12,3 +12,6 @@ def test_duplicates():
 
 def test_capitalisation():
     assert order("Capitalisation should NOT matter") == "Capitalisation matter NOT should"
+
+
+# Adding a pointless comment.
