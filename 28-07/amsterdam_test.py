@@ -8,7 +8,7 @@ def test_caps():
     assert amsterdam("AM AM am am lots of capital letters Am aM") == 6
 
 def test_incorrect():
-    assert amsterdam(123) == "Sorry, you've entered an incorrect value."
+    assert amsterdam(123) == 0
 
 def test_none():
     assert amsterdam("no things in here") == 0
